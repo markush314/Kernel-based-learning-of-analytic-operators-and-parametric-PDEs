@@ -1,0 +1,6 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+jax
+# notebook 02 additionally needs legacy FEniCS (dolfin 2019.x), which is not on PyPI
