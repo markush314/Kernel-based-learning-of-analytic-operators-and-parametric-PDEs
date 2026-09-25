@@ -31,5 +31,3 @@ $N=900$ experiment.
   the top of the first code cell of each notebook.
 * Notebook 02 writes ~3 GB of `.npz` files. They are excluded by `.gitignore`;
   regenerate them rather than committing them.
-* Two cells run in seconds and need no solver — they reproduce the constants quoted
-  in the paper: the grid/admissibility check in `02` and the boundary check in `01`.
