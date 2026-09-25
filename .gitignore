@@ -1,0 +1,9 @@
+# generated data (~3 GB) -- regenerate with notebook 02
+*.npz
+
+# generated figures -- regenerate with notebooks 01 and 03
+*.pdf
+
+# notebook noise
+.ipynb_checkpoints/
+__pycache__/
