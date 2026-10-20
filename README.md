@@ -1,6 +1,6 @@
 # Kernel-based learning of analytic operators and parametric PDEs — code
 
-Reproduces the experiments of Section 6 (Figure 1, Figures 2–4, Table 1).
+Reproduces the experiments of Section 7 (Figure 1, Figures 2–4, Table 1).
 
 ## Notebooks
 
@@ -27,7 +27,7 @@ $N=900$ experiment.
 
 ## Notes
 
-* The hyperparameter grids are shared between Sections 6.1 and 6.2 and are defined at
+* The hyperparameter grids are shared between Sections 7.1 and 7.2 and are defined at
   the top of the first code cell of each notebook.
 * Notebook 02 writes ~3 GB of `.npz` files. They are excluded by `.gitignore`;
   regenerate them rather than committing them.
