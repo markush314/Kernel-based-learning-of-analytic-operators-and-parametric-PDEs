@@ -1,6 +1,10 @@
-numpy
-scipy
-scikit-learn
-matplotlib
-jax
-# notebook 02 additionally needs legacy FEniCS (dolfin 2019.x), which is not on PyPI
+# Package versions of the reported runs of notebooks 01 and 03 (Python 3.11.15, JAX on CPU).
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.9
+jax==0.10.2
+jaxlib==0.10.2
+# Notebook 02 additionally needs legacy FEniCS, which is not on PyPI: it was run with the
+# Ubuntu apt package python3-dolfin 2019.2.0~legacy20240219 (FFC 2019.2.0~legacy,
+# UFL-legacy 2022.3.0) on the system Python 3.12.3 with NumPy 1.26.4.

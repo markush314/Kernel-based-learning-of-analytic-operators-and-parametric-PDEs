@@ -1,5 +1,11 @@
 # generated data (~3 GB) -- regenerate with notebook 02
 *.npz
+# ...except the small result files behind Figures 1-4 and Table 1
+!scalar_P*.npz
+!results_320.npz
+!results_fig3_320.npz
+!results_pvar320.npz
+!results_oracle_320.npz
 
 # generated figures -- regenerate with notebooks 01 and 03
 *.pdf
@@ -7,3 +13,6 @@
 # notebook noise
 .ipynb_checkpoints/
 __pycache__/
+
+# local working copies
+Claude outputs/
