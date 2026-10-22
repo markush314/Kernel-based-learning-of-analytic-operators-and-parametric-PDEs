@@ -1,0 +1,29 @@
+== N=100: pipeline floor = 0.029750 ==
+  szego: 0.030130 +- 0.000336 (58s, params [0.3], nuggets [1e-09])
+  matern: 0.031588 +- 0.001314 (79s, params [0.01, 0.03], nuggets [1e-09, 1e-07])
+  gaussian: 0.032028 +- 0.001383 (74s, params [0.01, 0.03, 0.1], nuggets [1e-09, 1e-07, 1e-05])
+== N=300: pipeline floor = 0.003867 ==
+  szego: 0.004041 +- 0.000042 (315s, params [0.3], nuggets [1e-09])
+  matern: 0.008589 +- 0.000174 (533s, params [0.01, 0.03], nuggets [1e-09, 1e-07])
+  gaussian: 0.009196 +- 0.000157 (495s, params [0.01, 0.03], nuggets [1e-09, 1e-07])
+== N=500: pipeline floor = 0.001118 ==
+  szego: 0.001263 +- 0.000038 (741s, params [0.3, 0.5], nuggets [1e-09])
+  matern: 0.004661 +- 0.000181 (1130s, params [0.03], nuggets [1e-09])
+  gaussian: 0.003729 +- 0.000155 (1137s, params [0.1], nuggets [1e-07])
+== N=700: pipeline floor = 0.000423 ==
+  szego: 0.000561 +- 0.000021 (1478s, params [0.3, 0.5], nuggets [1e-09])
+  matern: 0.003331 +- 0.000128 (2481s, params [0.03], nuggets [1e-09])
+  gaussian: 0.002695 +- 0.000154 (2621s, params [0.03, 0.1], nuggets [1e-09, 1e-07])
+== N=900: pipeline floor = 0.000190 ==
+  szego: 0.000308 +- 0.000018 (3125s, params [0.3, 0.5], nuggets [1e-09])
+  matern: 0.002625 +- 0.000064 (4243s, params [0.03], nuggets [1e-09])
+  gaussian: 0.002369 +- 0.000047 (2323s, params [0.03], nuggets [1e-09])
+\begin{tabular}{c|ccc|c}
+$N$ & Szegö & Matérn & Gaussian & pipeline floor \\
+\hline
+100 & \textbf{0.03013 $\pm$ 0.00034} & 0.0316 $\pm$ 0.0013 & 0.0320 $\pm$ 0.0014 & 0.029750 \\
+300 & \textbf{0.004041 $\pm$ 0.000042} & 0.00859 $\pm$ 0.00017 & 0.00920 $\pm$ 0.00016 & 0.003867 \\
+500 & \textbf{0.001263 $\pm$ 0.000038} & 0.00466 $\pm$ 0.00018 & 0.00373 $\pm$ 0.00015 & 0.001118 \\
+700 & \textbf{0.000561 $\pm$ 0.000021} & 0.00333 $\pm$ 0.00013 & 0.00270 $\pm$ 0.00015 & 0.000423 \\
+900 & \textbf{0.000308 $\pm$ 0.000018} & 0.002625 $\pm$ 0.000064 & 0.002369 $\pm$ 0.000047 & 0.000190 \\
+\end{tabular}

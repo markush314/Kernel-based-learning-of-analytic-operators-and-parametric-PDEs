@@ -35,8 +35,12 @@ stored outputs were produced in this way. Notebook 01 contains the outputs of th
 original run.
 
 The PDE training and test data written by notebook 02 (~1.4 GB) are not part of the
-repository. They can be regenerated with notebook 02 (fixed seeds) or downloaded
-from [ARCHIVE LINK / DOI].
+repository. They can be regenerated with notebook 02 (fixed seeds).
+
+The console output of the $N$-experiment run reported in the paper, including the
+kernel parameters and nuggets selected by cross-validation for every $N$, is in
+`logs/nb03_N_experiment.log`. For new runs, notebook 03 also stores these selections
+(keys `*_sel`) in `results_320.npz` and `results_pvar320.npz`.
 
 ## Requirements
 
@@ -64,7 +68,3 @@ $N=900$ experiment.
 * Notebook 02 writes ~3 GB of `.npz` files. They are excluded by `.gitignore`;
   regenerate them rather than committing them. Only the small result files listed
   above are tracked.
-
-## Citation
-
-Release used for the paper: [tag, e.g. `v1.0-juq`] — archived at [Zenodo DOI].
