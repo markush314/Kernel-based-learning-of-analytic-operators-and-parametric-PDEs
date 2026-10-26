@@ -13,6 +13,3 @@
 # notebook noise
 .ipynb_checkpoints/
 __pycache__/
-
-# local working copies
-Claude outputs/
